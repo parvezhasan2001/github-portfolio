@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Kelly Bootstrap Template</title>
+  <title>Portfolio Details - Parvez Hasan Portfolio</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -44,7 +44,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Kelly</h1>
+        <h1 class="sitename">Parvez</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -54,35 +54,17 @@
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
+       <div class="header-social-links">
+          <a href="https://x.com/parvezh919" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.facebook.com/parvezh919" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/parvezh2001/" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/parvez-hasan-1b0030247/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
     </div>
   </header>
 
@@ -90,80 +72,178 @@
 
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2 id="pd-title">Project</h2>
+    <p id="pd-subtitle">Project overview and key details.</p>
+  </div>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio Details</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
-
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            { "loop": true, "speed": 600, "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
+          </script>
+          <div class="swiper-wrapper align-items-center" id="pd-slides">
+            <!-- slides injected by JS -->
           </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
-
+          <div class="swiper-pagination"></div>
         </div>
-
       </div>
+
+      <div class="col-lg-4">
+        <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+          <h3>Project information</h3>
+          <ul id="pd-meta">
+            <!-- meta injected by JS -->
+          </ul>
+        </div>
+        <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+          <h2 id="pd-heading">Summary</h2>
+          <p id="pd-desc"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // --- Simple data source for your projects ---
+    const PROJECTS = {
+      "car-rental": {
+        title: "Car Rental Management System",
+        subtitle: "Python + MySQL · OOP & Design Patterns · QR booking",
+        images: [
+          "assets/img/portfolio/car-rental-full.png",
+          "assets/img/portfolio/car-rental-2.png",
+          "assets/img/portfolio/car-rental-3.png"
+        ],
+        meta: [
+          ["Category", "Web"],
+          ["Tech", "Python, MySQL, OOP, Singleton/Factory"],
+          ["Date", "2024"],
+          ["GitHub", '<a href="https://github.com/YOURUSER/Car_Rental_System" target="_blank">Repository</a>']
+        ],
+        heading: "Robust system for rentals & returns",
+        desc: "A modular Python application implementing OOP and design patterns. Features include booking workflow, pricing utilities, QR-based pickup/return, and secure persistence with MySQL. Designed for maintainability and clear separation of concerns."
+      },
+
+      "passport": {
+        title: "Passport Management App",
+        subtitle: "Flutter + Node.js + MongoDB · Notifications & Status",
+        images: [
+          "assets/img/portfolio/passport-app-full.png",
+          "assets/img/portfolio/passport-app-2.png"
+        ],
+        meta: [
+          ["Category", "App"],
+          ["Tech", "Flutter, Node.js, Express, MongoDB, JWT"],
+          ["Date", "2024–2025"],
+          ["GitHub", '<a href="https://github.com/YOURUSER/passport-management" target="_blank">Repository</a>']
+        ],
+        heading: "End-to-end mobile workflow",
+        desc: "Cross-platform app for application status, remarks, and notifications. Backend with role-aware endpoints and JWT auth; frontend with token decoding and real-time updates."
+      },
+
+      "quillquest": {
+        title: "QuillQuest Forum Platform",
+        subtitle: "MERN · Threads, Communities, Real-time chat, Search",
+        images: [
+          "assets/img/portfolio/quillquest-full.png",
+          "assets/img/portfolio/quillquest-2.png"
+        ],
+        meta: [
+          ["Category", "Web"],
+          ["Tech", "React, Node, Express, MongoDB, Socket.io, Tailwind"],
+          ["Date", "2025"],
+          ["GitHub", '<a href="https://github.com/YOURUSER/quillquest" target="_blank">Repository</a>']
+        ],
+        heading: "Community-first forum/blog engine",
+        desc: "Scalable forum and content system with communities, threaded discussions, DMs, job boards, and advanced search. UI/UX with Tailwind/Shadcn."
+      },
+
+      "finance": {
+        title: "Finance & Spending Analytics",
+        subtitle: "Python + MongoDB + Node · Dashboards & Insights",
+        images: [
+          "assets/img/portfolio/finance-analytics-full.png",
+          "assets/img/portfolio/finance-analytics-2.png"
+        ],
+        meta: [
+          ["Category", "Other"],
+          ["Tech", "Python, Pandas, Node, MongoDB, Matplotlib"],
+          ["Date", "2025"],
+          ["GitHub", '<a href="https://github.com/YOURUSER/personal-finance-analytics" target="_blank">Repository</a>']
+        ],
+        heading: "Data-driven budgeting",
+        desc: "ETL scripts ingest transactions; APIs serve normalized data; dashboards uncover spending patterns, recurring costs, and savings opportunities."
+      },
+
+      "jwt": {
+        title: "JWT Authentication & API Security",
+        subtitle: "Node + Express + MongoDB · Postman tests",
+        images: [
+          "assets/img/portfolio/jwt-auth-full.png"
+        ],
+        meta: [
+          ["Category", "Web"],
+          ["Tech", "Node.js, Express, MongoDB, Bcrypt, Postman"],
+          ["Date", "2024"],
+          ["GitHub", '<a href="https://github.com/YOURUSER/jwt-auth-starter" target="_blank">Repository</a>']
+        ],
+        heading: "Secure auth foundation",
+        desc: "Role-based access control, refresh tokens, password hashing, and request validation with a clean service/controller structure."
+      },
+
+      "wifi": {
+        title: "Wi-Fi CSI Indoor Localization",
+        subtitle: "Python · MapFi-inspired simulation & analysis",
+        images: [
+          "assets/img/portfolio/wifi-csi-full.png",
+          "assets/img/portfolio/wifi-csi-2.png"
+        ],
+        meta: [
+          ["Category", "Other"],
+          ["Tech", "Python, NumPy, SciPy, Matplotlib"],
+          ["Date", "2025"],
+          ["Paper", '<a href="https://doi.org/10.xxxx/mapfi" target="_blank">Reference</a>']
+        ],
+        heading: "CSI-based positioning study",
+        desc: "Implements AoA estimation pipelines, error analysis, and mapping experiments to evaluate feasibility under sparse CSI data."
+      }
+    };
+
+    const params = new URLSearchParams(location.search);
+    const id = params.get("id") || "car-rental";
+    const p = PROJECTS[id] || PROJECTS["car-rental"];
+
+    // Titles & text
+    document.getElementById("pd-title").textContent = p.title;
+    document.getElementById("pd-subtitle").textContent = p.subtitle;
+    document.getElementById("pd-heading").textContent = p.heading;
+    document.getElementById("pd-desc").textContent = p.desc;
+
+    // Slides
+    const slides = document.getElementById("pd-slides");
+    p.images.forEach(src => {
+      const div = document.createElement("div");
+      div.className = "swiper-slide";
+      div.innerHTML = `<img src="${src}" alt="">`;
+      slides.appendChild(div);
+    });
+
+    // Meta
+    const meta = document.getElementById("pd-meta");
+    p.meta.forEach(([k, v]) => {
+      const li = document.createElement("li");
+      li.innerHTML = `<strong>${k}</strong>: ${v}`;
+      meta.appendChild(li);
+    });
+  </script>
+</section>
 
     </section><!-- /Portfolio Details Section -->
 
@@ -173,20 +253,19 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Hasan</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://x.com/parvezh919"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.facebook.com/parvezh919"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/parvezh2001/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/parvez-hasan-1b0030247/"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 
